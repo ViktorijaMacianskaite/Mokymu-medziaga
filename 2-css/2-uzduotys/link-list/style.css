@@ -1,0 +1,37 @@
+main{
+    background-image: url("image.jpeg");
+    height: 300px;
+}
+#main-header{
+    background: black;
+}
+li{
+    display: inline;
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+.title{
+    color: white;
+    text-align: center;
+}
+#main-footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.7em;
+    margin-top: 125px;
+    padding-left: 100px;
+    padding-right: 100px
+}
+#list-item:hover {
+    color:brown
+
+}
+.text-container{
+    background-color: rgba(0, 0, 0, 0.288);
+    width: 150px;
+    color: white;
+    margin-left: 750px;
+}

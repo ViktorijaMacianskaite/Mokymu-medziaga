@@ -1,0 +1,152 @@
+@media screen and (max-width: 377px) {
+    /*HEADER*/
+
+    header h1 {
+        font-size: 40px;
+        text-align: center;
+        width: 100%
+    }
+
+    header .banner-buttons .button-whatwedo {
+        margin-bottom: 15px
+    }
+
+    header .banner-buttons .button-whatwedo,
+    header .banner-buttons .button-playvideo {
+        width: 100%
+    }
+
+
+    /*VIDEO SECTION*/
+
+    main .video-section .video {
+        margin: 50px 20px 0px 0px;
+        width: 330px;
+        height: 350
+    }
+
+    main .video-section .know-about-us {
+        text-align: center !important;
+        margin-left: 30px;
+    }
+
+    main .what-we-do-section .service-img {
+        margin: 50px 0px 50px -90px;
+        width: 300px
+    }
+
+    main .what-we-do-section .what-we-do-icon {
+        margin-bottom: 20px;
+    }
+
+    /*LOGO SECTION*/
+
+    main .logo-section h3 {
+        font-size: 10px;
+    }
+
+    main .our-supporters {
+        text-align: center;
+    }
+
+    /*SERVICE SECTION*/
+
+    main .what-we-do-section .what-we-do {
+        text-align: center !important;
+    }
+
+    main .what-we-do-section .what-we-do {
+        width: 100%;
+    }
+
+    main .what-we-do-section-h5-line {
+        margin-bottom: 50px;
+
+    }
+
+    /*PROJECTS*/
+    main .projects .project-cards-title {
+        text-align: center;
+
+    }
+
+    main .project-section-h5-line {
+        margin-bottom: 50px;
+        margin-left: 150px;
+    }
+
+    /* CHART PIE */
+
+    main .chart h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    main .chart p {
+        text-align: center;
+    }
+
+    main .chart .donut-chart {
+        margin-left: 0px;
+    }
+
+    main .chart .row {
+        margin-left: 0px;
+    }
+
+    /*SECOND-BANNER*/
+
+    main .special-needs-banner h4 {
+        font-size: 30px;
+        padding: 30px 0px
+    }
+
+    main .special-needs-banner .btn {
+        width: 100%;
+    }
+
+    /*EVENTS*/
+
+    main .events .event-cards p {
+        font-size: 20px;
+    }
+
+    main .events .event-cards {
+        display: block
+    }
+
+    main .events .event-cards h3 {
+        padding-top: 10px;
+    }
+
+    main .events .event-cards h1 {
+        font-size: 15px;
+    }
+
+        main .events .custom-row{
+        width: 40%
+    }
+
+    main .events .date{
+        margin-right: 10px;
+    }
+
+    /*Footer*/
+
+    footer {
+        text-align: center;
+    }
+
+    footer .footer-home,
+    footer .footer-more,
+    footer .footer-content,
+    footer .footer-subscribe,
+    footer .footer-logo {
+        margin-bottom: 50px;
+    }
+
+    footer .footer-subscribe h4 {
+        font-size: 30px;
+    }
+
+}

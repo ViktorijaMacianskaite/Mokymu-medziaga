@@ -1,0 +1,42 @@
+#page-container{
+    max-width: 1300 px;
+    background-color: #D4F1E6;
+}
+
+.flex.container{
+    display: flex;
+}
+body{
+    background-color: #D4F1E6;
+    font-family: 'Inter';
+    
+}
+main h1{
+top: 121px;
+left: 150px;
+text-align: center;
+font-size: 70px;
+margin: 70px;
+font-weight: 50px;
+}
+main{
+padding: 50px;
+}
+
+main img{
+    justify-content: space-between;
+    height: 300px;
+    margin: 10px 10px
+}
+
+main .article{
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 50px;
+    display: flex
+}
+main .article-text{
+    justify-content: space-between;
+    width: 55%;
+    
+}

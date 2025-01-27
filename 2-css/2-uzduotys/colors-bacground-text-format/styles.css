@@ -1,0 +1,79 @@
+body {
+    background: #f2e9d8;
+    font-family: sans-serif
+}
+
+.title1 {
+    color: rgba(0,0,0,0.2);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center
+}
+
+.table-image {
+    background-image: url("paveiksliukai/pexels-photo-69903.jpeg");
+    text-align: center;
+    font-size: 1.8em;
+    width: 500px;
+    height: 200px
+
+}
+
+.cell-color {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.cell-color1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(252, 245, 245);
+    font-style: oblique
+}
+
+p {
+    text-align: justify;
+}
+
+#pirmas-paragrafas {
+    color: rgb(110, 110, 110);
+    font-style: oblique;
+    font-size: 1.5em;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+a {
+    color: #ed0a3f;
+    font-style: oblique;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #2d383a;
+    font-style: oblique
+}
+
+.title2 {
+    color: rgba(33, 141, 11, 0.849);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center
+}
+li {
+    text-transform: lowercase;
+}
+
+img {
+    height: 200px
+}
+table, td{
+    border: 2px solid red;
+    border-collapse: collapse
+}
+.saraso-elementai {
+    list-style-type: none;
+    border-bottom: 2px solid silver;
+}

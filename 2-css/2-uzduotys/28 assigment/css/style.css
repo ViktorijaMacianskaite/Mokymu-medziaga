@@ -1,0 +1,101 @@
+main .page-container{
+    max-width: 1600px;
+    margin: 0 auto
+}
+main h3{  
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 700;
+line-height: 29.05px;
+text-align: left;
+}
+
+main h1{
+font-family: Poppins;
+font-size: 72px;
+font-weight: 700;
+line-height: 108px;
+text-align: left;
+
+}
+
+main article{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+
+main p{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+color: #7D9458;
+}
+
+section{
+width: 376px;
+box-shadow: 0px 2px 6px 0px #00000026;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+display: inline-block;
+margin: 10px
+}
+
+main img{
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+button{
+padding: 12px 32px 12px 32px;
+border-radius: 4px;
+border: 2px solid #84AD40;
+color: #84AD40;
+margin-bottom: 10px;
+}
+
+button:hover{
+background-color: #84AD40;
+color: #fff
+}
+
+main .bubles{
+    width:70%;
+    display: inline-block;
+}
+.black-buble{
+background-color: #000;
+height: 25px;
+width: 25px;
+border-radius: 100px;
+display:inline-block
+}
+
+.pink-buble{
+background-color: #f3a195;
+height: 25px;
+width: 25px;
+border-radius: 100px;
+display:inline-block
+}
+
+.grey-buble{
+    background-color:#efeae6;
+    height: 25px;
+    width: 25px;
+    border-radius: 100px;
+    display:inline-block
+}
+
+.brown-buble{
+    background-color:#c38364;
+    height: 25px;
+    width: 25px;
+    border-radius: 100px;
+    display:inline-block
+}
+

@@ -1,0 +1,46 @@
+@media screen and (max-width: 780px) and (min-width: 377px){
+.banner .banner-text h1{
+    font-size: 60px;
+    line-height: 60px
+}
+
+header  {
+    padding-top: 200px;
+}
+
+header .banner .banner-text p{
+    font-size: 20px;
+}
+
+.video .video-text h2{
+    font-size: 50px;
+    line-height: 50px
+}
+
+.video .video-text p{
+    font-size: 16px;
+    line-height: 16px
+}
+
+.general-info-second #general-info-text{
+font-size: 30px;
+}
+
+section .galery-card .photogaphy-galery-card,
+section .galery-card .coffe-galery-card,
+section .galery-card .concert-galery-card{
+    padding-bottom: 50px;
+}
+
+footer .article{
+    margin-top: 60px;
+}
+
+footer .navigation {
+    margin-top: 60px;
+}
+
+.team-info .galery-positions{
+    margin-bottom: 20px;
+}
+}

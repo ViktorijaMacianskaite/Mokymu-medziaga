@@ -1,0 +1,18 @@
+.first-block {
+    background-color: #b6bc8f;
+
+}
+.second-block {
+    background-color: #644af7;
+}
+
+.header {
+    color: #ffffff;
+    background-color: #8fbc8f;
+}
+
+.selected-item {
+    background-color: #000000;
+    color: #dd191f;
+}
+

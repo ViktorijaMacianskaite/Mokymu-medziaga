@@ -1,0 +1,89 @@
+@media screen and (max-width: 780px) and (min-width: 377px) {
+
+    /*HEADER*/
+
+    header h1 {
+        font-size: 45px;
+        width: 100%
+    }
+
+    header .banner-footer p {
+        font-size: 12px;
+    }
+
+    header .header-line {
+        width: 50%
+    }
+
+    /*VIDEO SECTION*/
+    main .video-section .video {
+        margin: 50px 20px 0px 0px;
+        width: 250px;
+        height: 350
+    }
+
+    /*LOGO SECTION*/
+
+    main .logo-section h3 {
+        font-size: 10px;
+    }
+
+    /*SERVICE SECTION*/
+
+    main .what-we-do-section h2 {
+        font-size: 30px;
+    }
+
+    main .what-we-do-section img {
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    main .what-we-do-section .service-img {
+        margin: 0px;
+        padding-top: 200px;
+        height: 650px
+    }
+
+    /*PROJECTS*/
+    main .project-cards-title {
+        margin-left: 30px;
+    }
+
+    /* CHART PIE */
+
+    main .donut-chart {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    /*SECOND-BANNER*/
+
+    main .special-needs-banner h4 {
+        font-size: 40px;
+        padding: 90px 50px 30px 50px;
+    }
+
+    main .special-needs-banner button {
+        font-size: 12px;
+    }
+
+    /*EVENTS*/
+
+    main .events .next-events p {
+        font-size: 20px;
+    }
+
+    main .events .next-events h1 {
+        font-size: 12px;
+        padding-left: 5px
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer h4 {
+        margin-top: 50px
+    }
+}

@@ -1,0 +1,16 @@
+body {
+    background-color:rgb(197, 189, 189)
+}
+.bacground-white {
+    background-color: white
+}
+.first-block {
+    color: white; background-color: black;
+}
+
+.second-block {
+    color: white; background-color: rgb(78, 78, 218);
+}
+a {
+    color: red
+}

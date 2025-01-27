@@ -1,0 +1,107 @@
+@media screen and (max-width: 768px) and (min-width: 377px) {
+
+    /*header*/
+    nav .title {
+        padding-left: 5%
+    }
+
+    nav ul {
+        gap: 10px;
+        padding-right: 5%;
+    }
+
+    header .container {
+        flex-direction: column-reverse;
+    }
+
+    header .info-part {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        padding: 50px 0px 50px
+    }
+
+    header .info {
+        width: 50%;
+    }
+
+    header .container .info-part .info h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    header .container .info-part .info p {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    header .welcome-img {
+        width: 100%
+    }
+
+    /*cards*/
+
+    section .container .comment {
+        padding: 0 5%
+    }
+
+    section .container .title h3 {
+        font-size: 38px;
+        line-height: 38px;
+    }
+
+    section .container .card {
+        width: calc((100% - 2 * 12px) / 2);
+        display: flex;
+
+    }
+
+    section .container .card h4 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    section .container .card p {
+        font-size: 18px;
+        line-height: 18px;
+
+    }
+
+    section .container .card span {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    section .container .card .price {
+        background-color: #fff;
+        padding: 0
+    }
+
+    section .container .card button {
+        width: 100%;
+        max-width: 100%;
+
+    }
+
+    section .container .card .button-s {
+
+        flex-wrap: wrap;
+    }
+
+
+    /*footer*/
+
+    footer .container .info{
+        flex-wrap: wrap;
+    }
+
+    footer .container .info .brackets1{
+        width: 100%;
+        margin-bottom: 50px
+    }
+
+    footer .container .info .brackets2,
+    footer .container .info .brackets3{
+        width: 45%
+    }
+}

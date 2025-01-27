@@ -1,0 +1,13 @@
+
+
+a,p{
+    font-size:2em
+}
+mark:hover {
+position:relative;
+top: 10px
+}
+
+.mano-div > p {
+    color: brown;
+}

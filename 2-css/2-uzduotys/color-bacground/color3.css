@@ -1,0 +1,21 @@
+.title {
+    background-color:rgba(23, 84, 196, 0.493);
+
+}
+.title2 {
+    background-color:rgba(121, 163, 241, 0.658);
+}
+.title3 {
+    background-color:rgba(119, 123, 131, 0.534);
+}
+.first-block {
+    background-image: url("color-background1.jpeg")
+}
+.second-block {
+    background-image: url("color-background2.jpeg");
+    background-repeat:no-repeat;
+    Background-size: 100%
+}
+.third-block {
+    background-image: url("color-background3.jpeg") 
+}

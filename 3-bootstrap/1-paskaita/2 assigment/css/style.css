@@ -1,0 +1,165 @@
+/* GENERAL */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* NAV */
+nav.navbar {
+    padding: 20px 0;
+}
+
+nav .navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: #878B9B;
+}
+
+nav .navbar-nav .nav-item {
+    margin: 0 20px;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #404445;
+}
+
+nav .navbar-nav .nav-item:first-child {
+    margin-left: 0;
+}
+
+nav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+nav .navbar-nav .nav-item .active,
+nav .navbar-nav .nav-item .nav-link:hover {
+    color: #43C45F;
+}
+
+header {
+    background-image: url("../img/background-img.svg");
+    height: calc(100vh - 100px);
+    background-size: cover;
+}
+
+header .container h1 {
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 82.03px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 200px
+}
+
+header .container h4 {
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30.47px;
+    text-align: center;
+    color: #D5D7D8;
+}
+
+header .green-btn {
+    background-color: #43C45F;
+    border: none;
+    margin: 30px
+}
+
+/*content*/
+
+main h3{
+    font-family: Roboto;
+        font-size: 18px;
+        font-weight: 550;
+        line-height: 25.78px;
+        text-align: left;
+        
+}
+
+main h6 {
+    font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.35px;
+        text-align: left;
+        color: #5F6B81;
+}
+
+main .row{
+    margin: 15px
+}
+
+main .icon{
+    color: #49C0FC;
+    margin: 10px;
+}
+
+main .under-header{
+
+    margin-top:100px 
+}
+
+main .video-container{
+    background-color: #F1F8FF;
+}
+
+main .video-container h1{
+    font-family: Roboto;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 46.88px;
+        text-align: center;
+        color: #404445;
+}
+
+main .video-container h4{
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.89px;
+        text-align: center;
+        color: #5F6B81;
+        margin: 0 300px;
+        padding-bottom: 20px;
+}
+main .statistic-container{
+    margin-top: 100px;
+}
+
+main .statistic-container h6{
+font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27.98px;
+    text-align: left;
+    color: #404445;
+}
+
+main .statistic-container h1{
+    font-family: Roboto;
+        font-size: 30px;
+        font-weight: 550;
+        line-height: 50.88px;
+        text-align: left;
+        color:  #404445;
+}
+
+main .line{
+    height: 1px;
+    background-color: #d6d6d6;
+}
+
+main .like-container h3{
+    font-family: Roboto;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 31.8px;
+        text-align: left;
+        color: #404445;
+}

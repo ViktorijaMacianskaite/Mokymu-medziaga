@@ -1,0 +1,44 @@
+.first-text,
+.second-text,
+.third-text,
+.fourth-text {
+    display: flex;
+    align-items: center;
+    padding: 0 10px
+}
+
+.first-text,
+.third-text {
+    background-color: #fea400;
+}
+
+.second-text,
+.fourth-text {
+    background-color: #fe450f
+}
+
+.second-text p {
+    background-color: #fff;
+    margin: 15px
+}
+
+.third-text {
+    justify-content: center;
+}
+
+.third-text p {
+    padding: 15px;
+    width: 30%;
+    background-color: #fff;
+    align-self: stretch
+}
+
+.fourth-text p {
+    background-color: #fea400;
+    padding: 15px;
+    margin: 15px;
+}
+
+.fourth-text {
+    justify-content: space-between;
+}

@@ -1,0 +1,83 @@
+@import 'colors';
+
+.flex-container {
+    display: flex
+}
+
+#page-container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    header {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $headerFooterBgColor;
+
+        h1 {
+            padding: 10px
+        }
+
+        nav {
+            ul {
+                li {
+                    list-style: none;
+                    margin-left: 10px;
+                    padding: 5px;
+
+                    a {
+                        color: $linkColor;
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .banner-col-1 {
+        background-color: $banerBgColor;
+        color: $cardBgColor;
+        text-align: center;
+        justify-content: center;
+
+        p {
+            padding: 15px;
+        }
+    }
+
+    .banner-col-2 {
+        background-color: $banerBgColor;
+        color: $cardBgColor;
+        justify-content: space-evenly;
+
+        p {
+            padding: 0 20px;
+        }
+    }
+
+    main {
+        background-color:$mainBgColor;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .card {
+            width: 25%;
+            background-color: $cardBgColor;
+            margin: 10px;
+            padding: 10px 20px;
+            border: 1px solid $mainBgColor;
+        }
+    }
+
+    footer {
+        align-items: center;
+        justify-content: space-between;
+        background-color: $headerFooterBgColor;
+        padding: 5px 0;
+
+        p {
+            padding: 5px;
+        }
+    }
+}

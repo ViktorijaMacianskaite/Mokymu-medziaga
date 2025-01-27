@@ -1,0 +1,70 @@
+@media screen and (max-width: 377px) {
+    .banner .banner-text h1 {
+        font-size: 35px;
+        line-height: 35px
+    }
+
+    header {
+        padding-top: 150px;
+    }
+
+    header.banner .banner-text p {
+        font-size: 18px;
+    }
+
+    .general-info-first .info-block,
+    .general-info-first .info-block p,
+    .general-info-first .info-block h3 {
+        text-align: center;
+    }
+
+    .video .video-col .video-wrapper iframe {
+        height: 250px;
+    }
+
+    .general-info-second .info-block {
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    .galery-card .photogaphy-galery-card,
+    .galery-card .coffe-galery-card {
+        margin-bottom: 50px;
+    }
+
+    .team-info .galery-positions {
+        margin-bottom: 20px;
+    }
+
+    footer.address,
+    footer.article,
+    footer.navigation {
+        margin-top: 50px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .input-group {
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    .subscribe-info #subscribe-field {
+        width: 100%;
+        margin-bottom: 20px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .subscribe-info #subscribe-button {
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 15px;
+    }
+
+}

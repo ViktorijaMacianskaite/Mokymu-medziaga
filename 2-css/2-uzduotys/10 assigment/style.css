@@ -1,0 +1,62 @@
+body {
+    background-image: url("images/bacground.png");
+    font-family: Niramit;
+}
+
+img {
+    top: 120px;
+    left: 316px;
+    padding: 88px 260px 88px 190px;
+    gap: 35px;
+    width: 194px;
+    height: 105px;
+    border: 7px 0px 0px 0px;
+    opacity: 0px;
+
+
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    width: 569px;
+    height: 24px;
+    font-size: 16;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+button {
+    margin: 5px;
+    background: #02B4E2;
+    border: none;
+    padding: 20px 48px 16px 48px;
+    border-radius: 30px;
+    gap: 8px;
+
+}
+
+#login {
+    font-family: Niramit;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#text {
+    width: 569px;
+    height: 85px;
+    font-size: 9px;
+    font-weight: 400;
+    color: #00000099;
+    padding-left: 15px;
+}
+
+#box-name {
+    font-size: 12px;
+    font-weight: 700;
+}

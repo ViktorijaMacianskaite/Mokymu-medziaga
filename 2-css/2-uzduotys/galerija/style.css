@@ -1,0 +1,42 @@
+body {
+    background-color: #000000;
+}
+
+.main-header {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.content {
+    min-height: 120px;
+    background-color: #ffffff;
+}
+
+.galery {
+    background-color: grey;
+    padding: 25px;
+}
+
+.secondary-header {
+    margin-bottom: 35px;;
+    color: #000000;
+    background-color: #bfbfbf;
+}
+
+.content {
+    background-color: #f5f5dc;
+}
+
+.article-header {
+    color: #de143c;
+}
+
+.paragraph {
+    color: #0f14f7;
+}
+
+.link {
+    text-decoration: underline;
+    background-color: #de143c;
+    color: #ffffff;
+}

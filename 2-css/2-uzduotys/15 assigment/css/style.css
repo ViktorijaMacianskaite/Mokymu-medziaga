@@ -1,0 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Inter
+}
+.slide{
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+    display:flex
+}
+.slide .number{
+    font-size: 128px;
+    font-weight:400px
+}
+#slide-white{
+    background-color: #FFFFFF;
+}
+#slide-green{
+    background-color: #51CB65;
+}
+#slide-purple{
+    background-color: #816EF5;
+}
+#slide-red{
+    background-color: #EA7B7B;
+}
+#slide-grey{
+    background-color: #D9D9D9;
+}
+.menu{
+    position: fixed;
+    bottom:50px;
+    right:50px
+}
+.menu .arrowup{
+    border-radius: 15px;
+    border: 1px rgb(0, 0, 0) solid;
+    padding:15px
+}
+.navigation{
+    border:1px ;
+    border-radius: 15px;
+    color:#EA7B7B
+
+}

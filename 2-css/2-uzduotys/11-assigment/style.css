@@ -1,0 +1,102 @@
+main {
+    font-family: Roboto;
+}
+
+nav {
+    background-image: url("image/Rectangle-9.svg");
+    background-size: cover;
+    box-shadow: 0px 5px 5px 0px #0000005E inset;
+    height: 300px
+}
+
+#main-header {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 234.38px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 90px;
+    text-shadow: 1px 1px rgb(66, 65, 65), -1px -1px rgb(75, 75, 77);
+}
+
+#second-header {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+    color: #073590;
+    margin: 20px 0px 0px 90px
+}
+
+#first-caption {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #807D7D;
+    margin-left: 90px;
+    margin-top: 0px
+}
+
+#second-caption {
+    border: 1px solid #91D5FF;
+    padding: 10px 0px 10px 0px;
+    border-radius: 2px 0px 0px 0px;
+    background-color: #E6F7FF;
+    margin-left: 90px
+}
+
+#content {
+    gap: 32px;
+    border-radius: 10px 0px 0px 0px;
+    background: #F5F5F5;
+}
+
+#block1,
+#block2,
+#block3 {
+    padding: 24px 24px 36px 24px;
+    gap: 32px;
+    border-radius: 24px;
+    background-color: #E0F0FC;
+    width: 300px;
+    margin: 10px;
+    position:relative;
+    left: 500px
+}
+
+.card-image {
+    width: 300px
+}
+
+.date {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 56.25px;
+}
+
+.location {
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 2.13px;
+    text-align: left;
+}
+
+.reservation {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2.09px;
+    text-align: left;
+    color: #807D7D;
+}
+
+button {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #F4E7FD;
+    padding: 5px 10px 5px 10px;
+    gap: 8px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #073590 21.43%, #3D7BF5 83.33%);
+    margin-top: 10px
+}

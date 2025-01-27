@@ -1,0 +1,76 @@
+@media screen and (max-width: 376px) {
+    /*header*/
+
+    .container{
+        min-width: unset
+    }
+    nav .container {
+        
+        flex-wrap: wrap;
+    }
+
+    nav .container .title {
+        width: 100%;
+        margin-bottom: 10px;
+        padding-left: 0;
+    }
+
+    nav .container ul{
+        width: 100%;
+        gap: 25px;
+        padding-left: 20px
+    }
+
+    nav .container ul li a{
+        font-size: 18px;
+        
+        }
+
+    nav .container .title h3{
+        text-align: center;
+    }
+
+     header .container .welcome-img{
+        width: 100%;
+        position:relative
+    
+    }
+
+    /*header .container .welcome-img img{
+        width: 100%;
+    position:absolute;
+    clip: rect(0, 100px, 200px, 0px)
+    }*/
+
+    header .container .info-part{
+        width:100%;
+        padding-left: 10px;
+    
+        
+    }
+
+    header .container .info-part h1{
+        font-size: 45px;
+        line-height: 45px;
+        padding-left: 20px
+    }
+
+    header .container .info-part p{
+        font-size: 18px;
+        line-height: 18px;
+        padding-left: 20px
+    }
+
+    header .container{
+        flex-direction: column-reverse;
+    }
+    
+    header .buttons{
+        display:unset;
+    }
+
+    header .container button{
+        width: 100%;
+        margin-right: 10px
+    }
+}

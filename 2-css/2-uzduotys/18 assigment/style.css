@@ -1,0 +1,46 @@
+.row-one,
+.row-two,
+.row-three,
+.row-four,
+.row-five {
+    display: flex;
+    height: 300px;
+    padding: 20px
+}
+
+.row-one {
+    background-color: #ffa500;
+    justify-content: start;
+}
+
+.row-two {
+    background-color: #8fbc8f;
+    justify-content: end;
+}
+
+.row-three {
+    background-color: #ff8c00;
+    justify-content: start;
+    align-items: center;
+}
+
+.row-four {
+    background-color: #00ced1;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-five {
+    background-color: #ff0000;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.row-one p,
+.row-two p,
+.row-three p,
+.row-four p,
+.row-five p {
+    background-color: #fff;
+    width: 200px;
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(88, 51, 51);
+}
+
+#one{
+    background-color: aqua;
+    max-width: 80%;
+    margin: 5em auto;
+    border: 12px solid green;
+    box-shadow: 5px 5px 15px;
+    
+}
+
+#two{
+    background-color: aqua;
+    max-width: 80%;
+    margin: 5em auto;
+    padding: 5em;
+    border-radius: 15px;
+    box-shadow: 5px 5px 50px  rgb(0, 0, 0, 0.5);
+}
+
+#three{
+    background-color: aqua;
+    max-width: 80%;
+    margin: 5em auto;
+    padding: 5em 0em;
+    border-bottom: 10px solid grey;
+    border-right: 15px dashed blue;    
+}
+
+#four{
+    background-color: aqua;
+    max-width: 80%;
+    margin: 5em auto;
+    padding: 0em 5em 1em;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+}
+
+#five{
+    background-color: aqua;
+    max-width: 80%;
+    margin: 5em auto;
+    padding-top: 0em;
+    padding-right: 0em;
+    padding-left: 0em;
+    padding-bottom: 5em;
+    border-left:10px dashed yellow ;
+
+}

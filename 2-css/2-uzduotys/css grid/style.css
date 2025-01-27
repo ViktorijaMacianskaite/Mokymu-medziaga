@@ -1,0 +1,176 @@
+/*pirmas blokas*/
+.red{
+    background-color: brown;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.container{
+    display: grid;
+    grid-gap:10px;
+    grid-template-rows: 50px 100px;
+    grid-template-columns: 50px auto 50px;
+    background-color: antiquewhite;
+}
+/*antras blokas*/
+.container-2{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-gap:20px;
+    margin: 50px
+}
+/*trečias blokas*/
+.container-3{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 40px 100px 40px;
+    grid:3px
+}
+.menu{
+    background-color: aqua;
+}
+.content{
+    background-color: aquamarine;
+    grid-column: 2/-1;
+}
+.header{
+    background-color: blue;
+    grid-column: 1/-1;
+}
+.footer{
+    background-color: bisque;
+    grid-column: 1/-1;
+}
+/*ketvirtas blokas*/
+
+.container-4{
+    display: grid;
+    grid-template-areas:
+    'r r g g'
+    'p b b b' 
+    'y y y y';
+    grid-gap: 10px;
+    margin: 20px
+}
+.red-block{
+    background-color: red;
+    grid-area: r
+}
+.green-block{
+    background-color: green;
+    grid-area: g
+}
+.purple-block{
+    background-color: plum;
+    grid-area: p
+}
+.yellow-block{
+    background-color: yellow;
+    grid-area: y
+}
+.blue-block{
+    background-color: blue;
+    grid-area: b
+}
+
+/* penktas blokas*/
+
+.container-5{
+    display: grid;
+    grid-template: repeat (5, 150px)/ repeat(5, 1fr) ;
+    grid-gap: 10px;
+    margin: 20px
+}
+.red-block1{
+    background-color: rgb(204, 27, 27);
+    grid-column: 1/3;
+    
+}
+.green-block2{
+    background-color: rgb(35, 201, 35);
+    grid-column: 3/5;
+}
+.purple-block3{
+    background-color: rgb(240, 34, 240);
+    grid-column: 1;
+}
+
+.blue-block4{
+    background-color: rgb(25, 25, 218);
+    grid-column:2/5;
+}
+.yellow-block5{
+    background-color: rgb(231, 231, 22);
+    grid-column: 1/5;
+}
+/* šeštas blokas*/
+
+.container-6{
+    display: grid;
+    grid-gap: 10px;
+    margin: 20px;
+    grid-template: repeat (5, 150px)/ repeat(5, 1fr) ;
+    grid-template-areas:
+    'r1 r1 r1 r1'
+    'p3 p3 b4 b4' 
+    'p3 p3 y5 y6';
+}
+.red-1{
+    background-color: rgb(160, 134, 134);
+    grid-area: r1
+}
+
+.purple-3{
+    background-color: rgb(100, 69, 100);
+    grid-area: p3
+}
+
+.blue-4{
+    background-color: rgb(100, 100, 153);
+    grid-area: b4
+}
+.yellow-5{
+    background-color: rgb(114, 114, 102);
+    grid-area: y5
+}
+.yellow-6{
+    background-color: rgb(124, 124, 67);
+    grid-area: y6
+}
+/* septintas blokas*/
+
+.container-7{
+    display: grid;
+    grid-gap: 10px;
+    margin: 20px;
+    grid-template-rows: 50px 100px 50px ;
+    grid-template-areas:    
+    'ra ra ra ra'
+    'pc gb gb bd' 
+    'yg yg yg yg';
+}
+.red-a{
+    background-color: rgb(199, 134, 134);
+    grid-area: ra
+}
+.green-b{
+    background-color: rgb(103, 165, 103);
+    grid-area: gb
+}
+.purple-c{
+    background-color: rgb(185, 108, 185);
+    grid-area: pc
+}
+
+.blue-d{
+    background-color: rgb(159, 159, 233);
+    grid-area: bd
+}
+.yellow-e{
+    background-color: rgb(230, 230, 187);
+    grid-area: yg
+}

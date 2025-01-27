@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+
+<body>
+    Mano pirmas JS
+    <!--/*internal*/-->
+    <script>
+       // console.log('mano pirmas js');
+    </script>
+
+    <!--/*external*/-->
+    <script src = 'script.js'> </script>
+
+    <!--/*inline*/-->
+    <button onclick="console.log('labas')">
+        click me
+    </button>
+    <div id="content">
+        <script>
+          //  document.getElementById('content').inerHTML = 'naujas'
+          //  document.write('write isvedimas')
+          //  document.writeln('write pvz')
+          //  document.write('write du')
+        </script>
+    </div>
+
+
+
+    <script>
+       // alert('Erorr')
+    </script>
+
+    <script>
+       // console.log('viktorija' + 'M')
+       // console.log('tobulėti')
+      //  console.log('Skarutė Eglota')
+      //  console.log('Žalutė Egla')
+      //  console.log('Gaurutė meškuota')
+      //  console.log('Ją šilo lanke')
+      //  console.log('Naujų dienų metą')
+      //  console.log('ją moks piešiniai')
+      //  console.log('***')
+      //  console.log('* ', '  *')
+      //  console.log('***')
+    </script>
+
+    <script>
+     //   console.log('+--------+------+');
+      //  console.log('|Vardas | Amžius|');
+       // console.log('+-------+-------+');
+       // console.log('| Tomas | 25    |');
+       // console.log('+---------------+');
+    </script>
+
+    <script>
+       // let vardas = 'Greta'; //string
+      //  let amzius = 20; //number
+      //  let ugis = 1.7;
+      //  let studente = true; //boolen bool
+      //  let teises = undefined;
+      //  let hobis = null;
+
+        //    console.log(vardas);
+        //    console.log(amzius);
+        //    console.log(ugis);
+        //    console.log(studente);
+        //    console.log(teises);
+        //    console.log(hobis);
+
+      //  console.log('mano vardas' + vardas);
+      //  console.log('mano amzius', amzius);
+      //  console.log('mano ugis yra :' + ugis + 'm.');
+      //  console.log('ar studente?' + studente);
+      //  console.log('ar galiu vairuoti' + teises);
+      //  console.log('mano bobi', hobis);
+
+      
+    
+
+     // const procentai = 2.1 //vienai reikšmei
+     // console.log(procentai)
+
+     // let marke = 'Audi';
+     // let modelis = 'A5';
+     // let metai = 2005;
+
+      //console.log(`${marke} ${modelis} buvo pagaminta ${metai} metais`)
+
+//let name ='Greta';
+
+//console.log(typeof name)
+
+//let tekstas = `
+//pirma
+//antra
+//trecia
+//`
+//console.log(tekstas)
+
+    </script>
+
+<script>
+    /*
+    let vardas = 'Gret';
+    let pavarde = 'Tike';
+    let amzius = '25';
+    let ugis = '1.8';
+    let svoris = '55';
+    let mokykla = 'Akustoji';
+    let kodas = 'fd25';
+    let kursas = 'ketvirtas';
+    let programa = 'it';
+    let kreditai = '2';
+
+    let miestas = 'Kns';
+    let valstybe = 'LT';
+    let apskritis = 'Vln';
+    let data = '1950';
+    let meras = 'Tomas';
+    let plotas = '1500';
+    let gyventoju_skaicius = '2500000';
+
+    console.log('mano vardas yra' + ` ${vardas}`);
+    console.log('akademine grupe:' + `${kodas}`);
+    console.log('vidurkis:' + `${kreditai}`);
+    console.log(`${vardas}${vardas}${vardas}${vardas}`);
+
+    let gyvunas = 'suo';
+    let AMZIUS = '2';
+    let kailio_sp = 'ruda';
+    let SVORIS = '1.4';
+
+    console.log('Gyvunas ' +gyvunas+ ' ('+ AMZIUS+ 'm.'+ ') ' + 'turi ' + kailio_sp+ ' kailio spalva ir sveria ' +SVORIS + 'kg.');
+
+    let skaicius = '25';
+    console.log(`${skaicius}${skaicius}${skaicius}${skaicius}${skaicius}`);
+    console.log(`${skaicius} ${skaicius} ${skaicius} ${skaicius} ${skaicius}`);
+    // /n - nauja eilute
+*/
+</script>
+
+<script>
+   /* let a = 1, b = 2
+    cocole.log('suma:' + a + b)
+    cocole.log('suma:' + (a + b))
+    */
+
+    //pakelti 2 ir 3 laipsniais
+  /*let skaicius = 2;
+  console.log(skaicius ** 2)
+  console.log(skaicius ** 3)
+
+  // suma,daugyba, 
+
+  let a = 2, b = 5, c = 4 ;
+  console.log (a + b+ c);
+  console.log(a * b * c)
+
+// suma daugyba dalyba atimtis sudetis
+
+let d = 6, g = 3;
+
+console.log(d + g);
+console.log(d - g);
+console.log((d + g)* (d - g));
+console.log((d + g) / (d - g));
+
+let e = 5, f = 8, h = 6, i = 3;
+console.log( (e + f + h + i) /4)
+
+let j = 4, k = 5;
+console.log( j + k);
+console.log(j - k);
+console.log(j * k);
+console.log(j / k);
+
+let ab = -1, ac = 4, ad = 6;
+console.log(ab + ac * ad)
+
+let ba = 35, bb = 5, bc = 7;
+console.log((ba + bb) % 7)
+
+let cc = 14, ca = -4, cb = 6, cd = 12;
+console.log(cc + ca * cb / cd)
+
+let da = 2, db = 15, dc = 6, dd = 1, de = 7;
+console.log(da + db / dc * dd - de %2)
+//7 task
+let ff = 5;
+    console.log(ff + ' * ' + 1 + ' = ' + ff * 1);
+    console.log(ff + ' * ' + 2 + ' = ' + ff * 2);
+    console.log(ff + ' * ' + 3 + ' = ' + ff * 3);
+    console.log(ff + ' * ' + 4 + ' = ' + ff * 4);
+    console.log(ff + ' * ' + 5 + ' = ' + ff * 5);
+    console.log(ff + ' * ' + 6 + ' = ' + ff * 6);
+    console.log(ff + ' * ' + 7 + ' = ' + ff * 7);
+    console.log(ff + ' * ' + 8 + ' = ' + ff * 8);
+    console.log(ff + ' * ' + 9 + ' = ' + ff * 9);
+    console.log(ff + ' * ' + 10 + ' = ' + ff * 10);
+
+    //8 task
+let number = 58;
+at = Math.floor(number/10);
+ag = (number %10);
+
+console.log(at + ag)
+
+*/
+
+</script>
+
+<script>
+
+   /* let skaicius = 0;
+    if (5 > 4) {
+    console.log('teigiamas');
+    } else if (skaicius<0) {
+    console.log('neigiamas');
+    } else {
+    console.log('nulis');
+    }
+
+
+    let vardas = 'Jonas';
+
+    if(vardas === 'Jonas'){
+    console.log('welcome Jonas');
+    } else {
+    console.log('access denied');
+    } */
+
+//     let a = 1, b = 2, c = 3;
+
+//         if (a === b) {
+//             console.log('a lygu b');
+//         } else (a != b); {
+//             console.log('a nelygu b');
+//         }
+
+//         if (b === c) {
+//             console.log('b lygu c');
+//         }
+//         if (a > b) {
+//             console.log('a didesnis');
+//         }
+
+//         if (b > c * 2) {
+//             console.log('b daugiau');
+//         }
+
+//         if (a %2 === 0) {
+//             console.log('a lygu 0');
+//         } else (a % 2 != 0); {
+//             console.log('a nelygu 0');
+//             }
+
+//          if (b % 2 !== 0) {
+//              console.log('b nelygu 0');
+//         }   else (a % 2 === 0); {
+//             console.log('b lygu 0');
+//             }
+//         if (c > 0) {
+//             console.log('taip')
+//         }
+
+//         if (a < 0) {
+//                 console.log('taip')
+//             }
+
+//         if (b % 4 === 0) {
+//             console.log('b su liekana');
+//         } 
+        
+//         if (c % 8 === 0) {
+//             console.log('c su liekana');
+//         }
+
+// //2 task
+
+// let vartotojo_amzius = 15;
+
+// if(vartotojo_amzius > 18){
+//     console.log('Jus galite balsuoti');
+// } else if (vartotojo_amzius <18){
+//     console.log('palaukite ' + (18 - vartotojo_amzius) + ' metus');
+// }
+
+// //3 task
+
+// let teigiamas = 5, neigiamas = 1, gerai = 5;
+
+// let vidurkis = (teigiamas + neigiamas + gerai)/3
+
+// if(vidurkis > 4) {
+//     console.log('teigiamas')
+// } else if(vidurkis === 5){
+//     console.log('teigiamas')
+// } else{
+//     console.log('neigiamas')
+// }
+
+// //4 task
+
+// let number = 25
+// if(number % 5 === 0){
+//     console.log('5' + '*' + '1' + '=' + (number*1));
+// }
+
+</script>
+
+<scrip>
+<!--  eilse if -->
+
+
+
+  
+
+
+
+</scrip>
+</body>
+
+</html>

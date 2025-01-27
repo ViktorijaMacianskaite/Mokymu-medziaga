@@ -1,0 +1,53 @@
+body {
+    background: hsl(0, 1%, 62%);
+}
+
+.title-main {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #222222;
+    background-color: #ffff;
+    font-size: 50px;
+    line-height: 58.59px;
+    letter-spacing: 2px;
+    text-align: left;
+
+}
+
+.title-2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    Size: 36px;
+    color: #222222;
+}
+
+.title-3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    Size: 20px;
+    color: #222222;
+    text-decoration: underline;
+
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+}
+
+.background {
+    background-color: #ffff;
+}
+
+.reactangle-1 {
+    width: 974px;
+    height: 59px;
+    top: 20px;
+    left: 13px;
+    gap: 0px;
+    opacity: 0px;
+
+}

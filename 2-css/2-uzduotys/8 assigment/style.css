@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(180deg, #58F6EC 0%, #FBEDDD 64.58%);
+    background-attachment: fixed;
+}
+
+h1{ 
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #000000;
+}
+
+p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    color: #000000;
+
+}
+
+button{
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    background: #FCCB92;
+
+}
+
+.block{
+    padding: 20px 20px 20px 20px;
+    gap: 16px;
+    background: #FFFFFF;
+    box-shadow: 5px 4px 16px #331C0026;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 20px;
+}
+

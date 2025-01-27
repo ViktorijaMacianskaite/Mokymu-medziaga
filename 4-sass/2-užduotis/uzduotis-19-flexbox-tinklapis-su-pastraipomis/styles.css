@@ -1,0 +1,82 @@
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#page-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+#page-container header {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e4b986;
+}
+#page-container header h1 {
+  padding: 10px;
+}
+#page-container header nav ul li {
+  list-style: none;
+  margin-left: 10px;
+  padding: 5px;
+}
+#page-container header nav ul li a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#page-container .banner-col-1 {
+  background-color: #8a2be2;
+  color: #fff;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#page-container .banner-col-1 p {
+  padding: 15px;
+}
+#page-container .banner-col-2 {
+  background-color: #8a2be2;
+  color: #fff;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+#page-container .banner-col-2 p {
+  padding: 0 20px;
+}
+#page-container main {
+  background-color: #ccc4c4;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#page-container main .card {
+  width: 25%;
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc4c4;
+}
+#page-container footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #e4b986;
+  padding: 5px 0;
+}
+#page-container footer p {
+  padding: 5px;
+}
