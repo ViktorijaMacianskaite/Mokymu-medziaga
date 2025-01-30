@@ -1,0 +1,44 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ebefdd;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+
+h1, h2{
+    font-weight: 900;
+}
+
+.block-wraper{
+    background-color: #fff;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px 35px;
+    margin:20px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.info-wraper .input-wraper{
+    margin: 10px 0
+}
+
+.info-wraper .input-wraper > * {
+    display: block;
+}
+
+.info-wraper .input-wraper input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.info-wraper button{
+padding: 5px 20px;
+cursor: pointer;
+}

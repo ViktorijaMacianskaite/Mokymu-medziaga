@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kepykla</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header class="block-wraper">
+    <h1>Kepykla</h1>
+   </header>
+
+   <div class="info-wraper block-wraper">
+    <h2>Pradine informacija</h2>
+    <div class="input-wraper">
+        <label for="employe-count">Darbuotoju skaicius</label>
+        <input type="number" id="employe-count" min="0" step="1" value="0">
+    </div>
+    <div class="input-wraper">
+        <label for="employee-makes-per-day">Darbuotojas iskepa per diena:</label>
+        <input type="number" id="employee-makes-per-day" min="0" step="1" value="0">
+    </div>
+    <div class="input-wraper">
+        <label for="orders">Uzsakymai:</label>
+        <input type="number" id="orders" min="0" step="1" value="0">
+    </div>
+    <button id="calculate">Skaiciuoti</button>
+   </div>
+
+   <div class="calculation-wraper block-wraper">
+    <h2>Skaiciavimai</h2>
+    <div id="results">Kolkas nieko nera.</div>
+   </div>
+
+    <script src='script.js'> </script>
+</body>
+
+</html>
