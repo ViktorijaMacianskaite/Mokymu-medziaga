@@ -1,0 +1,122 @@
+<!-- <!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prekių Krepšelis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="cart-container">
+        <h2>Prekių krepšelis</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Produktas</th>
+                    <th>Vieneto kaina</th>
+                    <th>Kiekis</th>
+                    <th>Bendra kaina</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img class="pdoruct-image" src=images/sim.svg></td>
+                    <td>Sim kortelė</td>
+                    <td>2.00 €</td>
+                    <td class="quantity-container">
+                        <button class="minus">-</button>
+                        <p class="quantity">2</p>
+                        <button class="plus">+</button>
+                    </td>
+                    <td>2.00 €</td>
+                    <td><button class="remove"><img class="delete-button" src=images/delete.svg></button></td>
+                </tr>
+                <tr>
+                    <td><img class="pdoruct-image" src=images/phone.svg></td>
+                    <td>Telefonas</td>
+                    <td>1200.00 €</td>
+                    <td class="quantity-container">
+                        <button class="minus">-</button>
+                        <p class="quantity">2</p>
+                        <button class="plus">+</button>
+                    </td>
+                    <td>1200.00 €</td>
+                    <td><button class="remove"><img class="delete-button" src=images/delete.svg></button></td>
+                </tr>
+                <tr>
+                    <td><img class="pdoruct-image" src=images/sdcard.svg></td>
+                    <td>SD kortelė (128 GB)</td>
+                    <td>35.00 €</td>
+                    <td class="quantity-container">
+                        <button class="minus">-</button>
+                        <p class="quantity">2</p>
+                        <button class="plus">+</button>
+                    </td>
+                    <td>70.00 € </td>
+                    <td><button class="remove"><img class="delete-button" src=images/delete.svg></button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="total-update-container">
+            <button class="update">Atnaujinti</button>
+            <p class="total"><strong>Užsakymo suma:</strong> 1272.00 €</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="basket-container">
+        <div class="container">
+            <h1>Prekiu krepselis</h1>
+            <div class="basket-content">
+                <div class="basket-header row">
+                    <div class="col-6">Produktas</div>
+                    <div class="col-2">Vnt. kaina</div>
+                    <div class="col-2">Kiekis</div>
+                    <div class="col-2">Bendra kaina</div>
+                </div>
+                <hr class="strong-line" />
+                <div class="product-list"></div>
+                <div class="basket-footer">
+                    <button class="refresh-button">Atnaujinti</button>
+                    <button class="add-product-button">Pridėti prekę</button>
+                    <div class="basket-price">
+                        <h4>Uzsakymo suma</h4>
+                        <h3 class="price">0.00 eur</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+
+</html>

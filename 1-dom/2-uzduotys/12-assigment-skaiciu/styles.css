@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3e0b6a;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px;
+    position: relative;
+}
+
+.container {
+    width: 800px;
+    max-width: 100%;
+    margin: 200px auto 0;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+.number-game{
+    margin-top: 100px;
+}
+
+.numbers-image {
+    float: left;
+    width: 300px;
+    max-width: 100%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.content {
+    margin-left: 320px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input,
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.wrong-guess-card {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -50px;
+    width: 400px;
+    max-width: 100%;
+    background-color: rgba(140, 43, 43, 0.6);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+.correct-guess-card {
+    display: none;
+    width: 800px;
+    max-width: 100%;
+    margin: 20px auto;
+    background-color: rgba(46, 125, 50, 0.6);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}

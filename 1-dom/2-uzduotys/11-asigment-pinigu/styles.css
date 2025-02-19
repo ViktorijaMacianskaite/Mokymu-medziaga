@@ -1,0 +1,156 @@
+  /* * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .container {
+      display: flex;
+      min-height: 100vh;
+    margin: 0px;
+        padding: 0px;
+  }
+
+  .money-bkg {
+      flex: 1;
+      text-align: left;
+  }
+  .headline {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin-left: 100px;
+      text-align: left;
+      padding: 50px;
+  }
+
+  .headline>div {
+      margin-bottom: 20px;
+      width: 100%;
+  }
+
+  .headline label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+  }
+
+  .headline .sum{
+    width: 70%;
+  }
+
+  .headline .currency {
+      width: 20%;
+  }
+
+  .headline input,
+  .headline select {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .money-bkg img {
+      height: 700px;
+      width: auto;
+  }
+
+  .headline img {
+      width: 400px;
+      margin-bottom: 20px;
+  }
+
+  body{
+    background-color: black;
+  } */
+
+  html body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+  }
+
+  .container .pig img {
+      width: 760px;
+  }
+
+  .container {
+      display: flex;
+      align-items: center;
+  }
+
+  .container .convert {
+      margin-bottom: 325px;
+  }
+
+  .suma p {
+      color: white;
+      font-family: 'PT Sans';
+      font-size: 14px;
+      margin-top: 43px;
+      margin-bottom: 8px;
+  }
+
+  .suma span {
+      color: #949494;
+      font-family: 'Inter';
+      font-size: 12px;
+  }
+
+  .suma input {
+      width: 320px;
+      height: 44px;
+      background: #191919;
+      border-radius: 5px;
+      border: none;
+  }
+
+  .suma .input select {
+      width: 85px;
+      height: 44px;
+      color: white;
+      background: #191919;
+      border-radius: 5px;
+      border: none;
+      margin-left: 10px;
+      padding-left: 5px;
+  }
+
+  .suma .currency select {
+      width: 308px;
+      height: 44px;
+      color: white;
+      background: #191919;
+      border-radius: 5px;
+      border: none;
+  }
+
+  .buttons button.calculate {
+      background-color: white;
+      color: black;
+      height: 44px;
+      width: 205px;
+      border-radius: 5px;
+      margin-top: 15px;
+      font-weight: 700;
+      font-size: 16px;
+  }
+
+  .buttons button.active {
+      background-color: black;
+      color: white;
+      height: 44px;
+      width: 205px;
+      border-radius: 5px;
+      margin-top: 15px;
+      border: 2px solid white;
+      font-weight: 700;
+      font-size: 16px;
+
+  }
+  
+  .convert{
+    margin-top: 200px;
+  }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Skaičiuoklė</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <div class="container calculator">
+        <img src="img/numbers.svg" alt="Numbers" class="numbers-image" />
+        <div class="content number-game">
+            <h1>Spėkite skaičių tarp 1 ir 100</h1>
+            <input id="guess" type="number" placeholder="Įveskite 1-100" min="1" max="100" />
+            <p>Įveskite skaičių nuo 1 iki 100</p>
+            <button type="button" id="guessButton">Spėk</button>
+        </div>
+    </div>
+
+    <div class="wrong-guess-card">
+        <img src="img/wrongguess.svg" alt="Wrong guess illustration" />
+        <h3>Deja, Neatspėjote!</h3>
+        <p>Spėkite <span>Mažesnį</span> skaičių!</p>
+    </div>
+
+    <div class="correct-guess-card">
+        <img src="img/correctguess.svg" alt="Correct guess illustration" />
+        <h3>Atspėjote!</h3>
+        <p>Atspėti pavyko iš <span>1</span> karto!</p>
+        <button type="button" id="retryButton">Spėti iš naujo</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

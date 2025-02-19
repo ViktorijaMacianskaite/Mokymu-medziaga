@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receptų skaičiuoklė</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="recipies">
+        <div>
+            <h1>Pasirinkite receptą:</h1>
+        </div>
+
+        <div class="recipe-container">
+            <div class="recipe-card">
+                <img class="card-image" src="images/lettuce.svg">
+                <h3>Vištiena su salotom</h3>
+                <p>Amet et at aliquam duis ut morbi turpis.</p>
+                <img class="selected" src="images/selected.svg">
+            </div>
+            <div class="recipe-card">
+                <img class="card-image" src="images/cake.svg">
+                <h3>Tortas su mėlynėmis</h3>
+                <p>Amet et at aliquam duis ut morbi turpis.</p>
+                <img class="selected" src="images/selected.svg">
+            </div>
+            <div class="recipe-card">
+                <img class="card-image" src="images/noodles.svg">
+                <h3>Makaronai su mėsa</h3>
+                <p>Amet et at aliquam duis ut morbi turpis.</p>
+                <img class="selected" src="images/selected.svg">
+            </div>
+        </div>
+    </div>
+    <div class="portion-container">
+        <h2>Kiek porcijų gaminsite?</h2>
+        <p>1</p>
+        <input type="range" min="1" max="10">
+    </div>
+
+    <div class="ingredients-container">
+        <h3>Jums reikės šių ingredientų, tokiais kiekiais:</h3>
+        <div>Miltų: <span>500 g</span></div>
+        <div>Kiaušinių: <span>2 vnt.</span></div>
+        <div>Mėlynių: <span>100 g</span></div>
+        <div>Cukraus: <span>2 šaukšteliai</span></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
