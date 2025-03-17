@@ -1,0 +1,19 @@
+{
+  "name": "my-firts-npm",
+  "version": "1.0.0",
+  "description": "first try with npm",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "npm",
+    "js",
+    "html"
+  ],
+  "author": "vika",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
