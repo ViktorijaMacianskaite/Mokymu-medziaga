@@ -1,0 +1,118 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #050505;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #4c8c64;
+}
+
+main .banner {
+    background-color: #4c8c64;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main .banner h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+main .banner h6 {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+main h1 {
+    margin-bottom: 20px;
+}
+
+main .project-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.project-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.project-text {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.it-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.tag {
+    background-color: #81ace1;
+    color: #333;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+main .project-card button {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4c8c64;
+    color: #fff;
+    cursor: pointer;
+}
+
+main .project-card button:hover {
+    background-color: #3c724f;
+}
+
+main .project-section-title{
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+}
